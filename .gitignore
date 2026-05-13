@@ -1,0 +1,23 @@
+# Claude internal docs — not for GitHub
+CLAUDE.md
+
+# Virtual environment
+worl_model_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Large generated files — recreate with: python data/generator.py
+data/trajectories.json
+
+# Model checkpoint — large binary, recreate with: python train.py
+checkpoints/
+
+# Training curve output — regenerated on each train run
+training_curves.png

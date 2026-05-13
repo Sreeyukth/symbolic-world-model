@@ -1,0 +1,37 @@
+================================
+LINEAR PROBE RESULTS
+================================
+
+Chain type prediction:
+  Accuracy : 88.2%  (random baseline: 16.7%)
+
+                      precision    recall  f1-score   support
+
+      calculus_chain      0.857     0.881     0.869      1512
+        expand_chain      0.871     0.861     0.866      1544
+   expand_diff_chain      0.872     0.846     0.859      1472
+ factor_expand_cycle      0.987     0.997     0.992      1509
+       repeated_diff      0.862     0.849     0.856      1437
+simplification_chain      0.843     0.857     0.850      1500
+
+            accuracy                          0.882      8974
+           macro avg      0.882     0.882     0.882      8974
+        weighted avg      0.882     0.882     0.882      8974
+
+Operation prediction:
+  Accuracy : 100.0%  (random baseline: 25.0%)
+
+              precision    recall  f1-score   support
+
+        DIFF      1.000     1.000     1.000      2538
+      EXPAND      1.000     1.000     1.000      2772
+      FACTOR      1.000     1.000     1.000      1011
+    SIMPLIFY      1.000     1.000     1.000      2653
+
+    accuracy                          1.000      8974
+   macro avg      1.000     1.000     1.000      8974
+weighted avg      1.000     1.000     1.000      8974
+
+Step index regression:
+  R²  : 0.892  (random baseline: 0.0)
+  MAE : 0.345 steps
