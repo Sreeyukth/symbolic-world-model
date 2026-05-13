@@ -140,7 +140,6 @@ All outputs are saved automatically: checkpoint to `checkpoints/model.pt`, train
 | v2 | Stochastic latent states (VAE-style world model) | Planned |
 | v3 | Multi-step imagination rollout without supervision | Planned |
 
-**Paper submission target:** NeurIPS 2026 workshop track.
 
 ---
 
@@ -148,4 +147,4 @@ All outputs are saved automatically: checkpoint to `checkpoints/model.pt`, train
 
 **Sreeyukth Shankar**
 Final-year B.Tech Computer Science, Christ University Bangalore
-Research interests: recurrent world models, memory in AI, neuroscience-inspired architectures
+
