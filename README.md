@@ -1,6 +1,6 @@
 # Symbolic World Model — A Recurrent Architecture for Procedural Mathematical Reasoning (v0)
 
-> **Actively developed research project — paper in progress**
+> **Actively developed research project **
 
 ---
 
